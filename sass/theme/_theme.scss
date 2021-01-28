@@ -1,0 +1,162 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+// base styles
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+// navigation styles
+#main-nav {
+    .container {
+        width: 65rem;
+    }
+}
+
+#main-menu {
+    flex: 1;
+    justify-content: space-between;
+
+    li a {
+        font-weight: 400;
+        color: white;
+        letter-spacing: .05rem;
+    }
+}
+
+
+// header styles
+.top-header {
+    width: 65em;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    &__logo {
+        img {
+            height: 7.5em;
+        }
+    }
+
+    &__main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+        &-info {
+            span {
+                &:first-child {
+                    margin-right: .5em;
+                }
+            }
+        }
+
+        h3 {
+            border: .15rem solid $primary;
+            font-family: 'Amatic SC', cursive;
+            font-weight: 700;
+            font-size: 2.2em;
+            border-radius: .25em;
+            padding: .25em .5em;
+            margin-top: .25em;
+        }
+    }
+
+    &__social-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+        padding: 0;
+
+        &Item {
+            margin-left: .5em;
+
+            &:last-child {
+                margin-left: .75em;
+            }
+
+            img {
+                width: 1.75em;
+            }
+        }
+    }
+}
+
+.bottom-header {
+    &__banner {
+        background: linear-gradient(transparent, rgb(255,255,255) 99%),
+                    url('../img/home-banner.png');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 28em;
+        padding: .1rem;
+        position: relative;
+
+        h2 {
+            font-family: 'Amatic SC', cursive;
+            font-size: 4rem;
+            position: absolute;
+            bottom: 2rem;
+            left: 35%;
+            transform: translateX(-50%);
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__listItem {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        position: relative;
+        border: .9em solid $primary;
+        margin: 0 1em;
+
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        span {
+            position: absolute;
+            bottom: .75em;
+            right: -1.5em;
+            z-index: 50;
+            color: white;
+            background-color: $primary-blue;
+            font-size: 1.1em;
+            padding: .45em 1em;
+            border: .05em solid white;
+            border-radius: .15em;
+        }
+
+        &:nth-child(2) {
+            border: .9rem solid $primary-blue;
+
+            span {
+                background-color: $dark-blue;
+            }
+        }
+
+        &:nth-child(3) {
+            border: .9rem solid $dark-blue;
+
+            span {
+                background-color: $primary;
+            }
+        }
+    }
+}
