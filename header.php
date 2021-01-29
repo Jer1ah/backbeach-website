@@ -36,8 +36,8 @@ defined( 'ABSPATH' ) || exit;
 	<div class="top-header__main">
 
 		<div class="top-header__main-info">
-			<span>980-622-1490</span>
-			<span>Lot 757, Ocean Drive, Bunbury</span>
+			<span><i class="fa fa-phone"></i>980-622-1490</span>
+			<span><i class="fa fa-map"></i>Lot 757, Ocean Drive, Bunbury</span>
 		</div> <!-- .top-header__main-info end -->
 
 		<h3>Make a Reservation</h3>
