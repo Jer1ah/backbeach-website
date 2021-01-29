@@ -232,3 +232,183 @@
         }
     }
 }
+
+
+// mothers-day section styles
+.mothers-day {
+    background: linear-gradient(transparent, rgb(255,255,255) 90%),
+                url("../img/news-bg.png");
+    padding: .1rem;
+
+    &__container {
+        width: 60rem;
+        margin: 7.5rem auto 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__image {
+        height: 17.5rem;
+        width: 17.5rem;
+        border-radius: 50%;
+        border: .9rem solid $dark-blue;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            border-radius: 50%;
+            height: 100%;
+            width: 100%;
+        }
+
+        span {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.25rem;
+            padding: .35rem 0;
+            width: 9rem;
+            border: .1rem solid white;
+            border-radius: .25rem;
+            color: white;
+            font-weight: 400;
+            text-align: center;
+
+            &:first-child {
+                top: -.25rem;
+                background-color: $primary;
+            }
+
+            &:last-child {
+                bottom: -.25rem;
+                background-color: $primary-blue;
+            }
+        }
+    }
+
+    &__info {
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        h3 {
+            font-family: 'Amatic SC', cursive;
+            font-weight: 700;
+            font-size: 3rem;
+            color: $primary;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 1.25rem;
+            margin: .5rem 0 1.75rem;
+        }
+    }
+
+    &__button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 10rem;
+        padding: .75rem 1rem;
+        background-color: $dark-blue;
+        border-radius: .25rem;
+
+        h5 {
+            margin: 0;
+            color: white;
+        }
+
+        .fa-chevron-right {
+            color: white;
+        }
+    }
+}
+
+
+// about section styles
+.about {
+    background: linear-gradient(rgba(50, 78, 85, .9), rgba(50, 78, 85, .9)),
+                url("../img/about-background.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__heading {
+        display: inline-block;
+        width: 60rem;
+        margin: 5rem auto 2rem;
+
+        h2:first-child {
+            color: $primary-blue;
+            font-family: 'Amatic SC', cursive;
+            font-size: 4.5rem;
+            font-weight: 700;
+            margin-bottom: 0;
+            line-height: 3.5rem;
+        }
+
+        h2:last-child {
+            color: white;
+            font-weight: 300;
+            font-size: 2.5rem;
+            margin-top: 0;
+        }
+    }
+
+    &__info {
+        width: 60rem;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+
+        &-container {
+            width: 75%;
+
+            p:first-child {
+                color: $primary-blue;
+                font-size: 1.1rem;
+            }
+
+            p:last-child {
+                color: white;
+                font-weight: 300;
+                font-size: 300;
+                opacity: .85;
+                line-height: 2rem;
+            }
+        }
+    }
+
+    &__button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $primary;
+        width: 10rem;
+        padding: .5rem 1rem;
+        border: .1rem solid $white;
+        border-radius: .25rem;
+        
+        h5 {
+            color: white;
+            margin: 0;
+        }
+
+        .fa-chevron-right {
+            color: white;
+        }
+    }
+}
