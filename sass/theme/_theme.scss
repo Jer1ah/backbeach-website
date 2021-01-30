@@ -518,3 +518,58 @@
         }
     }
 }
+
+
+// social section styles
+.social {
+    &__heading {
+        width: 45rem;
+        margin: 6rem auto 2rem;
+
+        h2:first-child {
+            font-family: 'Amatic SC', cursive;
+            color: $primary;
+            font-size: 4.5rem;
+            font-weight: 700;
+            line-height: 2rem;
+            margin-left: 1.5rem;
+        }
+
+        h2:last-child {
+            font-weight: 300;
+            font-size: 2.5rem;
+        }
+    }
+
+    &-card {
+        width: 40rem;
+        margin: 2rem auto;
+        border: .1rem solid $primary;
+        border-radius: .25rem;
+        padding: 1.5rem;
+
+        &__heading {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        &__container {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        &__info {
+            margin-left: 1.5rem;
+
+            &-heading {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+            }
+        }
+    }
+}

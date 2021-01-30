@@ -88,6 +88,33 @@ get_header();
         </form>
     </div> <!-- .newsletter__container end -->
 </div> <!-- .newsletter end -->
+<div class="social">
+    <div class="social__heading">
+        <h2>Socials</h2>
+        <h2>Follow us on facebook &amp; instagram</h2>
+    </div> <!-- .social__heading end -->
+    <hr class="social__line">
+    <div class="social-card">
+        <span class="social-card__heading">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebook.png" alt="Social Icon">
+            <h5>What's new on facebook</h5> 
+        </span> <!-- .social-card__heading end -->
+        <div class="social-card__container">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/food1.png" alt="Image of Food">
+            <div class="social-card__info">
+                <span class="social-card__info-heading">
+                    <i class="fa fa-phone"></i>
+                    <h5>Posted Jan 31 2020</h5>
+                    <i class="fa fa-phone"></i>
+                    <h5>24 Likes</h5>
+                </span> <!-- .social-card__info-heading end -->
+                <hr class="social-card__info-line">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a quam ex. Nam egestas id dolor nec tincidunt. Curabitur diam eros, mattis non erat a, tincidunt varius tellus. Maecenas eu risus iaculis magna gravida imperdiet sed tristique arcu.</p>
+                <button>Read on facebook</button>
+            </div> <!-- .social-card__info end -->
+        </div> <!-- .social-card__container end -->
+    </div> <!-- .social-card end -->
+</div> <!-- .social end -->
 
 <?php
 get_footer();
