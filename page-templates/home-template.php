@@ -75,6 +75,19 @@ get_header();
         </div> <!-- .testimonials__testimonial end -->
     </div> <!-- .testimonials__container end -->
 </div> <!-- .testimonials end -->
+<div class="newsletter">
+    <div class="newsletter__container">
+        <span class="newsletter__heading">
+            <h3>Sign Up</h3>
+            <h3>subscribe to our email newsletter</h3>
+        </span> <!-- .newsletter__heading -->
+        <form action="#" class="newsletter__form">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Email">
+            <input type="submit" value="Subscribe">
+        </form>
+    </div> <!-- .newsletter__container end -->
+</div> <!-- .newsletter end -->
 
 <?php
 get_footer();
