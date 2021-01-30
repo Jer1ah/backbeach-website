@@ -65,6 +65,16 @@ get_header();
         </a>
     </div> <!-- .about__info end -->
 </div> <!-- .about end -->
+<div class="testimonials">
+    <div class="testimonials__container">
+        <h3>Happy Customers</h3>
+        <div class="testimonials__testimonial">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a quam ex. Nam egestas id dolor nec tincidunt.</p>
+            <hr>
+            <span>Adrian Mayfield</span>
+        </div> <!-- .testimonials__testimonial end -->
+    </div> <!-- .testimonials__container end -->
+</div> <!-- .testimonials end -->
 
 <?php
 get_footer();

@@ -338,7 +338,7 @@
                 url("../img/about-background.jpg");
     background-position: center;
     background-size: cover;
-    margin: 5rem 0;
+    margin: 5rem 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -409,6 +409,57 @@
 
         .fa-chevron-right {
             color: white;
+        }
+    }
+}
+
+
+// testimonials section styles
+.testimonials {
+    background: url("../img/testimonials-bg.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 37.5rem;
+
+    &__container {
+        position: absolute;
+        top: 8.5rem;
+        left: 65%;
+        transform: translateX(-50%);
+
+        h3 {
+            font-family: 'Amatic SC', cursive;
+            font-weight: 700;
+            font-size: 4rem;
+        }
+    }
+
+    &__testimonial {
+        width: 30rem;
+        padding: 3rem 2rem;
+        background-color: $primary;
+        color: white;
+        border: solid .1rem white;
+        border-radius: .5rem;
+        margin-top: 1.5rem;
+
+        p {
+            line-height: 1.85rem;
+            font-weight: 300;
+            font-size: 1.1rem;
+            opacity: .85;
+        }
+
+        hr {
+            background-color: white;
+            opacity: .75;
+            margin: 1.25rem 0;
+        }
+
+        span {
+            font-size: 1.25rem;
+            font-weight: 300;
         }
     }
 }
