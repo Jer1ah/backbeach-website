@@ -102,19 +102,41 @@ get_header();
         <div class="social-card__container">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/food1.png" alt="Image of Food">
             <div class="social-card__info">
-                <span class="social-card__info-heading">
-                    <i class="fa fa-phone"></i>
-                    <h5>Posted Jan 31 2020</h5>
-                    <i class="fa fa-phone"></i>
-                    <h5>24 Likes</h5>
-                </span> <!-- .social-card__info-heading end -->
+                <div class="social-card__info-heading">
+                    <span>
+                        <i class="fa fa-calendar"></i>
+                        <h5>Posted Jan 31 2020</h5>
+                    </span>
+                    <span>
+                        <i class="fa fa-thumbs-up"></i>
+                        <h5>24 Likes</h5>
+                    </span>
+                </div> <!-- .social-card__info-heading end -->
                 <hr class="social-card__info-line">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a quam ex. Nam egestas id dolor nec tincidunt. Curabitur diam eros, mattis non erat a, tincidunt varius tellus. Maecenas eu risus iaculis magna gravida imperdiet sed tristique arcu.</p>
+                <p>Curabitur diam eros, mattis non erat a, tincidunt varius tellus. Maecenas eu risus iaculis magna gravida imperdiet sed tristique arcu.</p>
                 <button>Read on facebook</button>
             </div> <!-- .social-card__info end -->
         </div> <!-- .social-card__container end -->
     </div> <!-- .social-card end -->
 </div> <!-- .social end -->
+<div class="contact">
+    <div class="contact__heading">
+        <h2>Contact</h2>
+        <h2>Send us a message below</h2>
+    </div> <!-- .contact__heading end -->
+    <hr class="contact__line">
+    <form action="#" class="contact-form">
+        <div class="contact-form__left">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Phone">
+            <input type="text" placeholder="Your Email">
+        </div> <!-- .contact-form__left end -->
+        <div class="contact-form__right">
+            <textarea placeholder="Your Message"></textarea>
+            <input type="submit" value="Send">
+        </div> <!-- .contact-form__right end -->
+    </form> <!-- .contact__form end -->
+</div> <!-- .contact end -->
 
 <?php
 get_footer();

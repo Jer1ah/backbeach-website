@@ -543,7 +543,7 @@
 
     &-card {
         width: 40rem;
-        margin: 2rem auto;
+        margin: 2rem auto 5rem;
         border: .1rem solid $primary;
         border-radius: .25rem;
         padding: 1.5rem;
@@ -553,6 +553,20 @@
             flex-direction: row;
             align-items: center;
             justify-content: flex-start;
+            margin-bottom: 1rem;
+
+            img {
+                height: 2.5rem;
+            }
+
+            h5 {
+                margin: 0;
+                font-family: 'Amatic SC', cursive;
+                font-size: 2.5rem;
+                font-weight: 700;
+                color: $primary;
+                margin-left: .5rem;
+            }
         }
 
         &__container {
@@ -567,8 +581,135 @@
             &-heading {
                 display: flex;
                 flex-direction: row;
-                align-items: center;
+                align-items: flex-end;
                 justify-content: flex-start;
+
+                span {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-end;
+                    justify-content: flex-start;
+                    margin-right: 1rem;
+                }
+
+                h5 {
+                    margin: 0;
+                    font-weight: 400;
+                    font-size: 1rem;
+                }
+
+                .fa {
+                    color: $primary-blue;
+                    margin-right: .5rem;
+                    font-size: 1.5rem;
+                }
+            }
+
+            &-line {
+                background-color: $primary-blue;
+            }
+
+            p {
+                font-size: 1rem;
+                font-weight: 300;
+            }
+
+            button {
+                border: none;
+                border-radius: .25rem;
+                color: white;
+                background-color: $dark-blue;
+                font-size: 1rem;
+                font-weight: 400;
+                height: 2.75rem;
+                width: 12rem;
+                padding-left: .75rem;
+                text-align: left;
+            }
+        }
+    }
+}
+
+
+// contact section styles
+.contact {
+    background: linear-gradient(rgba(50, 78, 85, .9), rgba(50, 78, 85, .9)),
+                url("../img/about-background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: .1rem;
+
+    &__heading {
+        width: 45rem;
+        margin: 6rem auto 2rem;
+
+        h2:first-child {
+            font-family: 'Amatic SC', cursive;
+            color: $primary;
+            font-size: 4.5rem;
+            font-weight: 700;
+            line-height: 2rem;
+            margin-left: 1.5rem;
+        }
+
+        h2:last-child {
+            font-weight: 300;
+            font-size: 2.5rem;
+            color: white;
+        }
+    }
+
+    &__line {
+        background-color: white;
+        opacity: .55;
+    }
+
+    &-form {
+        width: 50rem;
+        margin: 3rem auto;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        &__left {
+            display: flex;
+            flex-direction: column;
+            width: 48.5%;
+
+            input {
+                height: 2.75rem;
+                margin-bottom: 1rem;
+                text-indent: .5rem;
+                outline: none;
+                border: .1rem solid $primary;
+                border-radius: .25rem;
+            }
+        }
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            width: 48.5%;
+
+            textarea {
+                border: .1rem solid $primary;
+                border-radius: .25rem;
+                text-indent: .5rem;
+                padding-top: .35rem;
+                height: 5rem;
+                outline: none;
+            }
+
+            input[type="submit"] {
+                height: 2.75rem;
+                color: white;
+                background-color: $primary;
+                border: .1rem solid $primary;
+                border-radius: .25rem;
+                margin-top: 1rem;
+                outline: none;
+                font-size: 1rem;
             }
         }
     }
