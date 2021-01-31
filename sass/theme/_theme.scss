@@ -146,6 +146,7 @@
             padding: .45em 1em;
             border: .05em solid white;
             border-radius: .15em;
+            font-family: 'Caladea', serif;
         }
 
         &:nth-child(2) {
@@ -223,6 +224,7 @@
 
             h5 {
                 margin: 0;
+                font-family: 'Caladea', serif;
             }
 
             &:hover {
@@ -277,6 +279,7 @@
             color: white;
             font-weight: 400;
             text-align: center;
+            font-family: 'Caladea', serif;
 
             &:first-child {
                 top: -.25rem;
@@ -323,6 +326,7 @@
         h5 {
             margin: 0;
             color: white;
+            font-family: 'Caladea', serif;
         }
 
         .fa-chevron-right {
@@ -362,6 +366,7 @@
             font-weight: 300;
             font-size: 2.5rem;
             margin-top: 0;
+            font-family: 'Caladea', serif;
         }
     }
 
@@ -405,6 +410,7 @@
         h5 {
             color: white;
             margin: 0;
+            font-family: 'Caladea', serif;
         }
 
         .fa-chevron-right {
@@ -491,6 +497,7 @@
             font-weight: 300;
             font-size: 2.5rem;
             color: white;
+            font-family: 'Caladea', serif;
         }
     }
 
@@ -538,6 +545,8 @@
         h2:last-child {
             font-weight: 300;
             font-size: 2.5rem;
+            font-family: 'Caladea', serif;
+            letter-spacing: .1rem;
         }
     }
 
@@ -654,7 +663,9 @@
 
         h2:last-child {
             font-weight: 300;
+            font-family: 'Caladea', serif;
             font-size: 2.5rem;
+            letter-spacing: .1rem;
             color: white;
         }
     }
@@ -711,6 +722,53 @@
                 outline: none;
                 font-size: 1rem;
             }
+        }
+    }
+}
+
+
+// footer styles
+.footer {
+    background-color: $primary-blue;
+    display: flex;
+    align-items: center;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 65rem;
+        margin: 1.5rem auto;
+
+        h5 {
+            color: white;
+            font-size: 1.25rem;
+            font-family: 'Amatic SC', cursive;
+            letter-spacing: .1rem;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .arrow-up {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+
+            .fa-chevron-up {
+                color: white;
+            }
+
+            p {
+                color: white;
+                margin: 0;
+                font-family: 'Caladea', serif;
+            }
+        }
+
+        img {
+            height: 4rem;
         }
     }
 }
