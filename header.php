@@ -31,6 +31,10 @@ defined( 'ABSPATH' ) || exit;
 
 <div class="top-header">
 
+	<div class="mobile-nav">
+		<a href="#">Menu<i class="fa fa-bars"></i></a>
+	</div> <!-- .mobile-nav end --> 
+
 	<a href="#" class="top-header__logo">
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/backbeach-logo.png" alt="Site Logo">
 	</a> <!-- .top-header__logo end -->
@@ -58,7 +62,7 @@ defined( 'ABSPATH' ) || exit;
 		</li>
 	</ul> <!-- .top-header__social-list end -->
 
-</div> <!-- .top-header end --> 
+</div> <!-- .top-header end  -->
 
 <nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-primary" aria-labelledby="main-nav-label">
 	<div class="container">
