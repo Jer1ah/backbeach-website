@@ -38,6 +38,31 @@ defined( 'ABSPATH' ) || exit;
 		<a href="#" class="mobile-nav__menu">
 			Menu<i class="fa fa-bars"></i>
 		</a>
+		<div class="mobile-nav__dropdown">
+			<ul class="mobile-nav__list">
+				<li class="mobile-nav__listItem">
+					<a href="#">Home</a>
+				</li>
+				<li class="mobile-nav__listItem">
+					<a href="#">Dining</a>
+				</li>
+				<li class="mobile-nav__listItem">
+					<a href="#">Lunch</a>
+				</li>
+				<li class="mobile-nav__listItem">
+					<a href="#">Breakfast</a>
+				</li>
+				<li class="mobile-nav__listItem">
+					<a href="#">Reservations</a>
+				</li>
+				<li class="mobile-nav__listItem">
+					<a href="#">About</a>
+				</li>
+				<li class="mobile-nav__listItem">
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+		</div> <!-- .mobile-nav__dropdown -->
 	</div> <!-- .mobile-nav end --> 
 
 	<a href="#" class="top-header__logo">
