@@ -32,7 +32,12 @@ defined( 'ABSPATH' ) || exit;
 <div class="top-header">
 
 	<div class="mobile-nav">
-		<a href="#">Menu<i class="fa fa-bars"></i></a>
+		<a href="#" class="mobile-nav__phone">
+			<i class="fa fa-phone"></i>980-622-1490
+		</a>
+		<a href="#" class="mobile-nav__menu">
+			Menu<i class="fa fa-bars"></i>
+		</a>
 	</div> <!-- .mobile-nav end --> 
 
 	<a href="#" class="top-header__logo">
