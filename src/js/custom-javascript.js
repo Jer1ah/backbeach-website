@@ -9,7 +9,7 @@ const mobileNavController = (function() {
     _mobileNavButton.addEventListener('click', (event) => {
         event.preventDefault();
 
-        if(_dropDown.style.display === 'none') {
+        if(window.getComputedStyle(_dropDown).display === 'none') {
             _phoneNumber.style.display = "none";
             _dropDown.style.display = "inline-block";
             _menuIcon.style.color = "black";
@@ -19,4 +19,5 @@ const mobileNavController = (function() {
             _menuIcon.style.color = "#F47756";
         }
     });
+    
 }());

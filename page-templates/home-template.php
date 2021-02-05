@@ -27,7 +27,7 @@ get_header();
             <p>We are proud to support local business and local producers by sourcing as much as possible locally, inluding the fish, beef and chicken. As well as the coffee and wines.</p>
         </div> <!-- .welcome__info-container end -->
         <a href="#" class="welcome__info-button">
-            <h5>Read <br> More</h5>
+            <h5>Read More</h5>
             <i class="fa fa-chevron-right"></i>
         </a>
     </div> <!-- .welcome__info end -->
