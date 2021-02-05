@@ -60,7 +60,7 @@ get_header();
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a quam ex. Nam egestas id dolor nec tincidunt. Curabitur diam eros, mattis non erat a, tincidunt varius tellus. Maecenas eu risus iaculis magna gravida imperdiet sed tristique arcu.</p>
         </div> <!-- .about__info-container end -->
         <a href="#" class="about__button">
-            <h5>Read <br> More</h5>
+            <h5>Read More</h5>
             <i class="fa fa-chevron-right"></i>
         </a>
     </div> <!-- .about__info end -->
