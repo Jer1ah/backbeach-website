@@ -7092,4 +7092,23 @@ const mobileNavController = function () {
       _menuIcon.style.color = "#F47756";
     }
   });
+}(); // removing default button functionality
+
+
+const buttonController = function () {
+  const _buttonList = document.querySelectorAll('a');
+
+  const _formButtonList = document.querySelectorAll('input');
+
+  for (let i = 0; i < _buttonList.length; i++) {
+    _buttonList[i].addEventListener('click', event => {
+      event.preventDefault();
+    });
+  }
+
+  for (let i = 0; i < _formButtonList.length; i++) {
+    _formButtonList[i].addEventListener('click', event => {
+      event.preventDefault();
+    });
+  }
 }();

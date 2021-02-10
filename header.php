@@ -29,7 +29,7 @@ defined( 'ABSPATH' ) || exit;
 
 <?php do_action( 'wp_body_open' ); ?>
 
-<div class="top-header">
+<div class="top-header" id="top-header">
 
 	<div class="mobile-nav">
 		<a href="#" class="mobile-nav__phone">

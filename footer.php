@@ -16,7 +16,7 @@ defined( 'ABSPATH' ) || exit;
 <footer class="footer">
     <div class="footer__container">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/backbeach-logo.png" alt="Site Logo">
-        <a href="#" class="arrow-up">
+        <a href="#top-header" class="arrow-up">
             <i class="fa fa-chevron-up"></i>
             <p>Back to Top</p>
         </a>
